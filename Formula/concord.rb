@@ -26,8 +26,6 @@ class Concord < Formula
     end
   end
 
-  depends_on "git"
-
   def install
     bin.install "concord"
   end
