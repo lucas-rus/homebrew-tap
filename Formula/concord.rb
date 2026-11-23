@@ -1,28 +1,28 @@
 class Concord < Formula
   desc "Coordinate teams of parallel AI coding agents on one repository"
   homepage "https://github.com/lucas-rus/concord"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/lucas-rus/concord/releases/download/v#{version}/concord-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "2fcd3667b06783e274d37b8e73c16ad4337caf2ec7ca19f6f56b3214b0f12f42"
+      sha256 "83ed6ffb150076309eb62f56381f3cab58d664d96154be6b7f977f0585568766"
     end
     on_intel do
       url "https://github.com/lucas-rus/concord/releases/download/v#{version}/concord-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "c37904d912c05c0e81ed538552f497db35cf88bff6dd128af12e4555df9d9d03"
+      sha256 "1dfb655ad25c823008ce67121177fa0b9fde8390a946480f6165ef4b7c055544"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lucas-rus/concord/releases/download/v#{version}/concord-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "14eddfad048012e10aab10d59dac72a30eda4b03540d2ab30c135543df9d8509"
+      sha256 "3c81fd2e74dda6a4791980ef67ba70f8bf6ae64e73d9b236f966af596542517a"
     end
     on_intel do
       url "https://github.com/lucas-rus/concord/releases/download/v#{version}/concord-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "95ca94cc81f71fbb7ea31839e6962b286961cba14d842de0d47cc413f9984c63"
+      sha256 "f2f75ce995fc06721b7a6b671f90ba03e3b925cf6626fa7202f20c669e1677f4"
     end
   end
 
