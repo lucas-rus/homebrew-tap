@@ -6,3 +6,11 @@ Homebrew formulae for [Concord](https://github.com/lucas-rus/concord) — contra
 brew install lucas-rus/tap/concordmcp
 concord setup
 ```
+
+## concord-team
+
+See what your teammates' AIs are changing, while they change it:
+
+```bash
+brew install lucas-rus/tap/concord-team
+```
